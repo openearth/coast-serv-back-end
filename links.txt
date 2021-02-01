@@ -1,3 +1,0 @@
-https://stackoverflow.com/questions/59944361/retrieval-and-display-from-azure-blob-storage-to-flask-python-to-html-js
-
-https://docs.microsoft.com/en-us/azure/storage/files/storage-python-how-to-use-file-storage
