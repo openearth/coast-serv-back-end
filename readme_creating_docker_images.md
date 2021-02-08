@@ -25,3 +25,14 @@ and
 ```bash
 docker image save --output fmtide.tar fmtide:1.0
 ```
+## Usage
+- If the images are not created yet, create it from the tar files with:
+```bash
+docker load --input .\fmphyschem.tar fmphyschem:1.0
+```
+and
+```bash
+docker load --input .\fmtide.tar fmtide:1.0
+```
+- To use the created docker container to convert CMEMS input into a format that DFlowFM can use, follow the instruction in the readme.md file
+to run the test case on the P drive: p:\11203850-coastserv\06-Model\Full_workflow_images_and_testcases
